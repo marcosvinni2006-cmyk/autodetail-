@@ -1,0 +1,44 @@
+AUTO DETAIL | ESTÉTICA AUTOMOTIVA SBC — site
+
+Abrir: dê dois cliques em index.html (não precisa instalar nada).
+Publicar: envie a pasta inteira para Netlify, Vercel ou Hostinger.
+
+WHATSAPP
+  O número fica em js/main.js, na constante WHATSAPP. Troque só ali.
+  A mensagem de cada botão fica no atributo data-wa do próprio botão, no index.html.
+
+ANTES DE PUBLICAR
+  - Troque [HORÁRIO] no index.html pelo horário de funcionamento.
+  - Troque SEU-DOMINIO.com.br no <head> do index.html pelo endereço final do site
+    (sem isso, a imagem não aparece quando o link é compartilhado no WhatsApp).
+  - Troque as fotos de exemplo pelas fotos reais (lista abaixo).
+
+IMAGENS (assets/img/) — mantenha exatamente estes nomes
+  As que estão lá hoje são fotos de exemplo (Unsplash). Os "antes" foram gerados
+  a partir dos "depois" só para demonstrar o comparador.
+
+  logo.png               Logo da marca (fundo transparente). Opcional: enquanto não existir,
+                         o logo é montado em texto. Ao colocar o arquivo, siga o comentário
+                         no header do index.html.
+  hero.jpg               Foto principal: profissional polindo um carro. Horizontal, 1920 x 1280.
+  og-image.jpg           Imagem que aparece ao compartilhar o link. 1200 x 630.
+
+  servico-ppf.jpg        Card PPF                                   800 x 600
+  servico-kit-ppf.jpg    Card Kit PPF para portas                   800 x 600
+  servico-polimento.jpg  Card Polimento técnico                     800 x 600
+  servico-vitrificacao.jpg Card Vitrificação                        800 x 600
+  servico-vidros.jpg     Card Descontaminação + cristalização       800 x 600
+  servico-motos.jpg      Card Estética para motos                   800 x 600
+
+  kit-conchas.jpg        Kit PPF: conchas de portas                 600 x 450
+  kit-quinas.jpg         Kit PPF: quinas de portas                  600 x 450
+  kit-soleiras.jpg       Kit PPF: soleiras de portas                600 x 450
+
+  antes-1.jpg / depois-1.jpg   Comparador, trabalho 1               1400 x 900
+  antes-2.jpg / depois-2.jpg   Comparador, trabalho 2               1400 x 900
+  antes-3.jpg / depois-3.jpg   Comparador, trabalho 3               1400 x 900
+    Dica: tire o antes e o depois do mesmo ângulo e na mesma distância.
+
+  galeria-1.jpg a galeria-8.jpg  Galeria de trabalhos (quadradas)   900 x 900
+
+  Ao trocar uma foto, atualize também o texto alt dela no index.html.
